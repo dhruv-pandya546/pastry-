@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Delicious Pastry Shop</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Delicious Pastry Shop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2 >Welcome to Delicious Pastry Shop</h2>
+        <p>Your sweet escape with freshly baked treats!</p>
+        <button><a href="#menu">Browse Our Menu</a></button>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="item">
+                <img src="asset/image-waffle-desktop.jpg" alt="Croissant">
+                <h3>Waffle</h3>
+                <p>Flaky and buttery, a classic French pastry.</p>
+            </div>
+            <div class="item">
+                <img src="asset/image-cake-desktop.jpg" alt="Cake">
+                <h3>Red Velvet Cake</h3>
+                <p>Rich, moist, and decadent chocolate cake.</p>
+            </div>
+            <div class="item">
+                <img src="asset/image-panna-cotta-desktop.jpg" alt="Cupcake">
+                <h3>Panna-cotta</h3>
+                <p>Soft and sweet with a creamy frosting topping.</p>
+            </div>
+            <div class="item">
+                <img src="asset/image-baklava-desktop.jpg" alt="Cupcake">
+                <h3>Baklava</h3>
+                <p>Crunchy, Soft layered delight</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Delicious Pastry Shop has been serving the community for over 10 years, specializing in fresh, handmade pastries made from the finest ingredients. We believe in bringing joy with every bite.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Delicious Pastry Shop. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
